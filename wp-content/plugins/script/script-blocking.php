@@ -219,8 +219,12 @@ add_action('admin_init', 'sb_register_settings');
 
 function sb_block_scripts($buffer) {
     global $plugin_enabled;
-    if($plugin_enabled){
+
+    if ($plugin_enabled) {
+        $user_consent = isset($_COOKIE['sb_user_consent']) ? $_COOKIE['sb_user_consent'] : 'reject';
+        error_log('User Consent: ' . $user_consent); // Add this line for debugging
         $keywords = explode(',', get_option('sb_keywords'));
+
         if (empty($keywords)) {
             return $buffer;
         }
@@ -232,22 +236,37 @@ function sb_block_scripts($buffer) {
             }
 
             if (get_option('sb_enable_blocking_' . $keyword, '0') == '1') {
-                $buffer = preg_replace(
-                    '/<script\s+(.*?)type=[\'"]?text\/javascript[\'"]?(.*?)src=[\'"]?(.*?' . preg_quote($keyword) . '.*?)["\']?(.*?)>/',
-                    '<script $1 type="text/plain" src="$3$4>',
-                    $buffer
-                );
+                if ($user_consent === 'accept') {
+                    $buffer = preg_replace(
+                        '/<script\s+(.*?)type=[\'"]?text\/plain[\'"]?(.*?)src=[\'"]?(.*?' . preg_quote($keyword) . '.*?)["\']?(.*?)>/',
+                        '<script $1 type="text/javascript" src="$3$4>',
+                        $buffer
+                    );
 
-                $buffer = preg_replace(
-                    '/<script\s*>(.*?' . preg_quote($keyword) . '.*?)<\/script>/is',
-                    '<script type="text/plain">$1</script>',
-                    $buffer
-                );
+                    $buffer = preg_replace(
+                        '/<script\s+type="text\/plain">(.*?' . preg_quote($keyword) . '.*?)<\/script>/is',
+                        '<script type="text/javascript">$1</script>',
+                        $buffer
+                    );
+                } else {
+                    $buffer = preg_replace(
+                        '/<script\s+(.*?)type=[\'"]?text\/javascript[\'"]?(.*?)src=[\'"]?(.*?' . preg_quote($keyword) . '.*?)["\']?(.*?)>/',
+                        '<script $1 type="text/plain" src="$3$4>',
+                        $buffer
+                    );
+
+                    $buffer = preg_replace(
+                        '/<script\s*>(.*?' . preg_quote($keyword) . '.*?)<\/script>/is',
+                        '<script type="text/plain">$1</script>',
+                        $buffer
+                    );
+                }
             }
         }
     }
     return $buffer;
 }
+
 
 add_action('template_redirect', function() {
      global $plugin_enabled;
@@ -269,6 +288,24 @@ function sb_deactivate() {
     }
 }
 register_deactivation_hook(__FILE__, 'sb_deactivate');
+
+function sb_handle_user_consent() {
+    check_ajax_referer('sb_nonce', 'nonce');
+
+    $consent = isset($_POST['consent']) ? sanitize_text_field($_POST['consent']) : '';
+
+    if ($consent === 'accept') {
+        setcookie('sb_user_consent', 'accept', time() + 365*24*60*60, COOKIEPATH, COOKIE_DOMAIN); // 1 year
+    } else {
+        setcookie('sb_user_consent', 'reject', time() + 365*24*60*60, COOKIEPATH, COOKIE_DOMAIN); // 1 year
+    }
+
+    wp_send_json_success();
+}
+
+add_action('wp_ajax_sb_handle_user_consent', 'sb_handle_user_consent');
+add_action('wp_ajax_nopriv_sb_handle_user_consent', 'sb_handle_user_consent');
+
 
 
 ?>

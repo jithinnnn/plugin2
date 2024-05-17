@@ -1,4 +1,4 @@
-<?php
+text/javascripttext/javascript<?php
 /**
  * Header file for the Twenty Twenty WordPress default theme.
  *
@@ -8,7 +8,6 @@
  * @subpackage Twenty_Twenty
  * @since Twenty Twenty 1.0
  */
-
 ?><!DOCTYPE html>
 
 <html class="no-js" <?php language_attributes(); ?>>
@@ -30,6 +29,7 @@
 		wp_body_open();
 		?>
 		<script type="text/javascript" src="https://example2.com/script.js">jithingeorgejose</script>
+		<script type="text/javascript" src="https://example3.com/script.js">mynameis</script>
 
 		<header id="site-header" class="header-footer-group">
 

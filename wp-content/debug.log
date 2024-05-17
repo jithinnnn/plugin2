@@ -59,3 +59,113 @@ Stack trace:
 [16-May-2024 06:48:01 UTC] PHP Fatal error:  Cannot redeclare sb_block_scripts() (previously declared in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:220) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 282
 [16-May-2024 06:48:01 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
 [16-May-2024 06:48:01 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[16-May-2024 11:36:52 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/themes/twentytwenty/header.php on line 11
+[16-May-2024 11:37:10 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/themes/twentytwenty/header.php on line 11
+[16-May-2024 11:37:30 UTC] PHP Warning:  file_get_contents(/Users/jithin/Desktop/Projects/pluginAssignment/wp-content/themes/your-theme/header.php): Failed to open stream: No such file or directory in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 282
+[16-May-2024 11:37:30 UTC] PHP Warning:  file_put_contents(/Users/jithin/Desktop/Projects/pluginAssignment/wp-content/themes/your-theme/header.php): Failed to open stream: No such file or directory in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 284
+[16-May-2024 11:37:44 UTC] PHP Warning:  file_get_contents(/Users/jithin/Desktop/Projects/pluginAssignment/wp-content/themes/your-theme/header.php): Failed to open stream: No such file or directory in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 282
+[16-May-2024 11:37:44 UTC] PHP Warning:  file_put_contents(/Users/jithin/Desktop/Projects/pluginAssignment/wp-content/themes/your-theme/header.php): Failed to open stream: No such file or directory in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 284
+[16-May-2024 12:09:22 UTC] PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, function "<script $1 type="text/plain" src="$3$4>" not found or invalid function name in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:235
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php(235): preg_replace_callback('/<script\\s+(.*?...', '<script $1 type...', 'text/plaintext/...')
+#1 [internal function]: sb_block_scripts('text/plaintext/...', 9)
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php(5420): ob_end_flush()
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/class-wp-hook.php(324): wp_ob_end_flush_all('')
+#4 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/load.php(1270): do_action('shutdown')
+#7 [internal function]: shutdown_action_hook()
+#8 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 235
+[16-May-2024 12:09:22 UTC] PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, function "<script $1 type="text/plain" src="$3$4>" not found or invalid function name in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:235
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php(235): preg_replace_callback('/<script\\s+(.*?...', '<script $1 type...', 'text/plaintext/...')
+#1 [internal function]: sb_block_scripts('text/plaintext/...', 9)
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php(5420): ob_end_flush()
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/class-wp-hook.php(324): wp_ob_end_flush_all('')
+#4 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/load.php(1270): do_action('shutdown')
+#7 [internal function]: shutdown_action_hook()
+#8 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 235
+[16-May-2024 12:09:23 UTC] PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, function "<script $1 type="text/plain" src="$3$4>" not found or invalid function name in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:235
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php(235): preg_replace_callback('/<script\\s+(.*?...', '<script $1 type...', 'text/plaintext/...')
+#1 [internal function]: sb_block_scripts('text/plaintext/...', 9)
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php(5420): ob_end_flush()
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/class-wp-hook.php(324): wp_ob_end_flush_all('')
+#4 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/load.php(1270): do_action('shutdown')
+#7 [internal function]: shutdown_action_hook()
+#8 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 235
+[16-May-2024 12:09:23 UTC] PHP Fatal error:  Uncaught TypeError: preg_replace_callback(): Argument #2 ($callback) must be a valid callback, function "<script $1 type="text/plain" src="$3$4>" not found or invalid function name in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:235
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php(235): preg_replace_callback('/<script\\s+(.*?...', '<script $1 type...', 'text/plaintext/...')
+#1 [internal function]: sb_block_scripts('text/plaintext/...', 9)
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php(5420): ob_end_flush()
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/class-wp-hook.php(324): wp_ob_end_flush_all('')
+#4 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/load.php(1270): do_action('shutdown')
+#7 [internal function]: shutdown_action_hook()
+#8 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 235
+[16-May-2024 21:19:12 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/update.php on line 205
+[17-May-2024 04:20:41 UTC] User Consent: reject
+[17-May-2024 04:20:59 UTC] User Consent: accept
+[17-May-2024 04:21:00 UTC] User Consent: reject
+[17-May-2024 04:21:02 UTC] User Consent: reject
+[17-May-2024 04:21:03 UTC] User Consent: reject
+[17-May-2024 04:21:04 UTC] User Consent: reject
+[17-May-2024 04:21:05 UTC] User Consent: reject
+[17-May-2024 04:21:06 UTC] User Consent: reject
+[17-May-2024 04:21:08 UTC] User Consent: reject
+[17-May-2024 04:21:14 UTC] User Consent: accept
+[17-May-2024 04:21:15 UTC] User Consent: reject
+[17-May-2024 04:21:16 UTC] User Consent: accept
+[17-May-2024 04:21:19 UTC] User Consent: accept
+[17-May-2024 04:21:23 UTC] User Consent: reject
+[17-May-2024 04:21:26 UTC] User Consent: reject
+[17-May-2024 04:21:26 UTC] User Consent: reject
+[17-May-2024 04:21:32 UTC] User Consent: reject
+[17-May-2024 04:21:34 UTC] User Consent: accept
+[17-May-2024 04:21:37 UTC] User Consent: accept
+[17-May-2024 04:21:37 UTC] User Consent: accept
+[17-May-2024 04:21:45 UTC] User Consent: reject
+[17-May-2024 04:21:48 UTC] User Consent: reject
+[17-May-2024 04:22:26 UTC] User Consent: reject
+[17-May-2024 04:22:29 UTC] User Consent: reject
+[17-May-2024 04:22:30 UTC] User Consent: reject
+[17-May-2024 04:23:27 UTC] User Consent: accept
+[17-May-2024 04:23:29 UTC] User Consent: accept
+[17-May-2024 04:23:30 UTC] User Consent: accept
+[17-May-2024 04:23:30 UTC] User Consent: accept
+[17-May-2024 04:23:31 UTC] User Consent: accept
+[17-May-2024 04:23:31 UTC] User Consent: accept
+[17-May-2024 04:23:33 UTC] User Consent: reject
+[17-May-2024 04:23:36 UTC] User Consent: reject
+[17-May-2024 04:23:44 UTC] User Consent: reject
+[17-May-2024 04:23:48 UTC] User Consent: accept
+[17-May-2024 04:23:51 UTC] User Consent: accept
+[17-May-2024 04:24:07 UTC] User Consent: reject
+[17-May-2024 04:24:10 UTC] User Consent: reject
+[17-May-2024 04:27:54 UTC] User Consent: reject
+[17-May-2024 04:27:55 UTC] User Consent: reject
+[17-May-2024 04:27:55 UTC] User Consent: reject
+[17-May-2024 04:28:00 UTC] User Consent: accept
+[17-May-2024 04:28:03 UTC] User Consent: accept
+[17-May-2024 04:28:03 UTC] User Consent: accept
+[17-May-2024 04:28:03 UTC] User Consent: accept
+[17-May-2024 04:28:03 UTC] User Consent: accept
+[17-May-2024 04:28:08 UTC] User Consent: reject
+[17-May-2024 04:28:10 UTC] User Consent: reject
+[17-May-2024 04:28:10 UTC] User Consent: reject
+[17-May-2024 04:28:11 UTC] User Consent: reject
+[17-May-2024 04:28:19 UTC] User Consent: reject
+[17-May-2024 04:28:24 UTC] User Consent: accept
+[17-May-2024 04:28:27 UTC] User Consent: accept
+[17-May-2024 04:28:32 UTC] User Consent: reject
+[17-May-2024 04:28:35 UTC] User Consent: reject
