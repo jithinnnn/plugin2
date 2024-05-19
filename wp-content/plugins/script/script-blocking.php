@@ -97,10 +97,30 @@ function toggle_plugin(){
 }
 
 function sb_consent_log_page() {
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'sb_consent_log';
+    $results = $wpdb->get_results("SELECT * FROM $table_name ORDER BY consent_time DESC");
     ?>
     <div class="wrap">
         <h1 class="text-danger">Consent Log</h1>
-        <p>This is where the consent log details will be displayed.</p> 
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Consent</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($results as $row) : ?>
+                    <tr>
+                        <td><?php echo esc_html($row->id); ?></td>
+                        <td><?php echo esc_html($row->consent); ?></td>
+                        <td><?php echo esc_html($row->consent_time); ?></td>
+                    </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
     </div>
     <?php
 }
@@ -267,7 +287,6 @@ function sb_block_scripts($buffer) {
     return $buffer;
 }
 
-
 add_action('template_redirect', function() {
      global $plugin_enabled;
      $plugin_enabled = get_option('sb_plugin_enabled'); 
@@ -275,6 +294,20 @@ add_action('template_redirect', function() {
 });
 
 function sb_activate() {
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'sb_consent_log';
+    $charset_collate = $wpdb->get_charset_collate();
+
+    $sql = "CREATE TABLE $table_name (
+        id mediumint(9) NOT NULL AUTO_INCREMENT,
+        consent varchar(10) NOT NULL,
+        consent_time datetime DEFAULT CURRENT_TIMESTAMP NOT NULL,
+        PRIMARY KEY (id)
+    ) $charset_collate;";
+
+    require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+    dbDelta($sql);
+
     add_option('sb_keywords', '');
     sb_add_frontend_banner();
 }
@@ -295,10 +328,22 @@ function sb_handle_user_consent() {
     $consent = isset($_POST['consent']) ? sanitize_text_field($_POST['consent']) : '';
 
     if ($consent === 'accept') {
-        setcookie('sb_user_consent', 'accept', time() + 365*24*60*60, COOKIEPATH, COOKIE_DOMAIN); // 1 year
+        setcookie('sb_user_consent', 'accept', time() + 365*24*60*60, COOKIEPATH, COOKIE_DOMAIN); 
     } else {
-        setcookie('sb_user_consent', 'reject', time() + 365*24*60*60, COOKIEPATH, COOKIE_DOMAIN); // 1 year
+        setcookie('sb_user_consent', 'reject', time() + 365*24*60*60, COOKIEPATH, COOKIE_DOMAIN); 
     }
+
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'sb_consent_log';
+    $wpdb->insert(
+        $table_name,
+        array(
+            'consent' => $consent,
+        ),
+        array(
+            '%s'
+        )
+    );
 
     wp_send_json_success();
 }

@@ -1,4 +1,4 @@
-text/javascripttext/javascript<?php
+<?php
 /**
  * Header file for the Twenty Twenty WordPress default theme.
  *

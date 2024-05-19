@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
             nonce: sb_ajax_object.nonce,
             consent: 'accept'
         }).done(function() {
-            location.reload();
+            $('#sb-frontend-banner').fadeOut();
         });
     });
 
@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
             nonce: sb_ajax_object.nonce,
             consent: 'reject'
         }).done(function() {
-            location.reload();
+            $('#sb-frontend-banner').fadeOut();
         });
     });
 });
