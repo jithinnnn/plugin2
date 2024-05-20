@@ -1818,3 +1818,52 @@ Stack trace:
   thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
 [20-May-2024 07:15:39 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
 [20-May-2024 07:15:39 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:34:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:364
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin-ajax.php(22): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 364
+[20-May-2024 07:36:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:364
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin-ajax.php(22): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 364
+[20-May-2024 07:39:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:102
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin-ajax.php(22): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 102
+[20-May-2024 07:39:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:102
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 102
+[20-May-2024 07:39:54 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:39:54 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:39:57 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:102
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 102
+[20-May-2024 07:39:57 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:39:57 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078

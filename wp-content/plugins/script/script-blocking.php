@@ -11,6 +11,8 @@ if (!defined('ABSPATH')) {
     exit; 
 }
 
+require_once( ABSPATH . 'wp-admin/includes/class-wp-list-table.php' );
+
 function sb_initialize_plugin_state() {
     if (get_option('sb_plugin_enabled') === false) {
         update_option('sb_plugin_enabled', true);
@@ -34,7 +36,7 @@ function sb_enqueue_frontend_scripts(){
         wp_enqueue_script('sb-frontend-script', plugin_dir_url(__FILE__) . 'js/frontend-script.js', array('jquery'), null, true); 
         wp_localize_script('sb-frontend-script', 'sb_ajax_object', array(
             'ajax_url' => admin_url('admin-ajax.php'),
-            'nonce' => wp_create_nonce('sb_nonce')
+            'nonce' => wp_create_nonce('sb_nonce')  
         ));
 }
 add_action('wp_enqueue_scripts', 'sb_enqueue_frontend_scripts');
@@ -81,16 +83,26 @@ function add_admin_menu() {
 }
 add_action('admin_menu', 'add_admin_menu');
 
-function enqueue_bootstrap_cdn() {
-    wp_enqueue_style('bootstrap-css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
-    wp_enqueue_script('bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js', array('jquery'), null, true);
+function enqueue_bootstrap_cdn($hook) {
+    $allowed_screens = ['toplevel_page_script-blocker', 'script-blocker_page_sb-consent-log'];
+
+    if (in_array($hook, $allowed_screens)) {
+        wp_enqueue_style('bootstrap-css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+        wp_enqueue_script('bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js', array('jquery'), null, true);
+    }
 }
 add_action('admin_enqueue_scripts', 'enqueue_bootstrap_cdn');
 
-function my_plugin_enqueue_admin_styles() {
-    wp_enqueue_style('my-plugin-admin-style', plugin_dir_url(__FILE__) . 'css/style.css');
+
+function my_plugin_enqueue_admin_styles($hook) {
+    $allowed_screens = ['toplevel_page_script-blocker', 'script-blocker_page_sb-consent-log'];
+
+    if (in_array($hook, $allowed_screens)) {
+        wp_enqueue_style('my-plugin-admin-style', plugin_dir_url(__FILE__) . 'css/style.css');
+    }
 }
 add_action('admin_enqueue_scripts', 'my_plugin_enqueue_admin_styles');
+
 
 function toggle_plugin(){
     $current_state = get_option('sb_plugin_enabled');
@@ -98,34 +110,86 @@ function toggle_plugin(){
 }
 
 
+class SB_Consent_Log_Table extends WP_List_Table {
+   
+    function __construct() {
+        parent::__construct(array(
+            'singular' => 'Consent Log',
+            'plural'   => 'Consent Logs',
+            'ajax'     => false
+        ));
+    }
+
+    function get_columns() {
+        $columns = array(
+            'cb'         => '<input type="checkbox" />',
+            'id'         => 'ID',
+            'consent'    => 'Consent',
+            'consent_time' => 'Time'
+        );
+        return $columns;
+    }
+
+    function column_default($item, $column_name) {
+        switch($column_name) {
+            case 'id':
+            case 'consent':
+            case 'consent_time':
+                return $item[$column_name];
+            default:
+                return print_r($item, true); 
+        }
+    }
+
+    
+    function get_sortable_columns() {
+        $sortable_columns = array(
+            'id'         => array('id', true),
+            'consent'    => array('consent', true),
+            'consent_time' => array('consent_time', true)
+        );
+        return $sortable_columns;
+    }
+
+    
+    function prepare_items() {
+        global $wpdb;
+
+        $table_name = $wpdb->prefix . 'sb_consent_log';
+        $per_page = 10;
+        $current_page = $this->get_pagenum();
+        $total_items = $wpdb->get_var("SELECT COUNT(id) FROM $table_name");
+
+        $this->set_pagination_args(array(
+            'total_items' => $total_items,
+            'per_page'    => $per_page
+        ));
+
+        $orderby = !empty($_REQUEST['orderby']) ? $_REQUEST['orderby'] : 'consent_time';
+        $order = !empty($_REQUEST['order']) ? $_REQUEST['order'] : 'DESC';
+
+        $this->_column_headers = array($this->get_columns(), array(), $this->get_sortable_columns());
+
+        $this->items = $wpdb->get_results(
+            $wpdb->prepare("SELECT * FROM $table_name ORDER BY $orderby $order LIMIT %d OFFSET %d", $per_page, ($current_page - 1) * $per_page),
+            ARRAY_A
+        );
+    }
+}
+
 function sb_consent_log_page() {
-    global $wpdb;
-    $table_name = $wpdb->prefix . 'sb_consent_log';
-    $results = $wpdb->get_results("SELECT * FROM $table_name ORDER BY consent_time DESC");
+    $sb_consent_log_table = new SB_Consent_Log_Table();
+    $sb_consent_log_table->prepare_items();
     ?>
-    <div class="wrap">
+    <div class="wrap my-plugin-admin-page">
         <h1 class="text-danger">Consent Log</h1>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Consent</th>
-                    <th>Time</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php foreach ($results as $row) : ?>
-                    <tr>
-                        <td><?php echo esc_html($row->id); ?></td>
-                        <td><?php echo esc_html($row->consent); ?></td>
-                        <td><?php echo esc_html($row->consent_time); ?></td>
-                    </tr>
-                <?php endforeach; ?>
-            </tbody>
-        </table>
+        <form method="post">
+            <?php $sb_consent_log_table->display(); ?>
+        </form>
     </div>
     <?php
 }
+
 
 function sb_settings_page() {
 
@@ -170,7 +234,7 @@ function sb_settings_page() {
 
     ?>
     <body style="background-size: cover; background-repeat:no-repeat; background-image: url('<?php echo plugin_dir_url(__FILE__) . 'images/gradient-7258997_640.webp'; ?>');">
-        <div class="wrap container w-75">
+        <div class="wrap my-plugin-admin-page container w-75">
             <div class="formwrap">
             <form method="post">
                 <div class="form-group">
@@ -360,7 +424,5 @@ function sb_handle_user_consent() {
 
 add_action('wp_ajax_sb_handle_user_consent', 'sb_handle_user_consent');
 add_action('wp_ajax_nopriv_sb_handle_user_consent', 'sb_handle_user_consent');
-
-
 
 ?>
