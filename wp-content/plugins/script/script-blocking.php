@@ -25,6 +25,7 @@ function sb_display_frontend_banner(){
         <button class="btn btn-accept">Accept</button>
         <button class="btn btn-reject">Reject</button>
     </div>';
+    echo '<div id="sb-revisit-banner" style="display:none;"><h3>Change your consent settings.</h3> <button class="btn btn-revisit">Revisit Consent</button></div>';
     }
 }
 
