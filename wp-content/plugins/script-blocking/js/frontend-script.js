@@ -30,14 +30,16 @@ jQuery(document).ready(function($) {
 
     function handleConsent(consent) {
         if (consent === 'accept') {
-            setCookie('userName', 'Jithin', 30);
-            setCookie('lastName', 'George', 30);
         } else {
-            deleteCookie('userName');
-            deleteCookie('lastName');
+            for (let cookieName in acceptedCookies) {
+                deleteCookie(cookieName);
+            }
         }
         setCookie('sb_user_consent', consent, 365);
-    }   
+    }
+            
+    document.querySelector('.btn-accept').addEventListener('click', () => handleConsent('accept'));
+    document.querySelector('.btn-reject').addEventListener('click', () => handleConsent('reject'));
 
     $('#sb-frontend-banner .btn-accept, #sb-frontend-banner .btn-reject').click(function() {
         var consent = $(this).hasClass('btn-accept') ? 'accept' : 'reject';

@@ -6,7 +6,6 @@
  Version:       2.0.0
  Author:        Jithin George Jose 
  */
-
 if (!defined('ABSPATH')) {
     exit; 
 }
@@ -383,7 +382,6 @@ function sb_activate() {
     dbDelta($sql);
 
     add_option('sb_keywords', '');
-    sb_add_frontend_banner();
 }
 register_activation_hook(__FILE__, 'sb_activate');
 
@@ -424,5 +422,4 @@ function sb_handle_user_consent() {
 
 add_action('wp_ajax_sb_handle_user_consent', 'sb_handle_user_consent');
 add_action('wp_ajax_nopriv_sb_handle_user_consent', 'sb_handle_user_consent');
-
 ?>
