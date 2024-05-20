@@ -1410,3 +1410,411 @@ Stack trace:
 [19-May-2024 15:27:20 UTC] User Consent: reject
 [19-May-2024 15:27:22 UTC] User Consent: reject
 [19-May-2024 15:27:24 UTC] User Consent: reject
+[20-May-2024 04:38:08 UTC] User Consent: reject
+[20-May-2024 04:38:16 UTC] User Consent: accept
+[20-May-2024 04:38:21 UTC] User Consent: reject
+[20-May-2024 04:38:48 UTC] User Consent: reject
+[20-May-2024 04:38:55 UTC] User Consent: accept
+[20-May-2024 04:38:59 UTC] User Consent: accept
+[20-May-2024 04:38:59 UTC] User Consent: accept
+[20-May-2024 04:39:02 UTC] User Consent: reject
+[20-May-2024 04:39:09 UTC] User Consent: reject
+[20-May-2024 04:39:11 UTC] User Consent: reject
+[20-May-2024 04:39:15 UTC] User Consent: reject
+[20-May-2024 04:39:20 UTC] User Consent: reject
+[20-May-2024 04:39:24 UTC] User Consent: reject
+[20-May-2024 04:39:27 UTC] User Consent: accept
+[20-May-2024 04:39:29 UTC] User Consent: reject
+[20-May-2024 04:39:36 UTC] User Consent: reject
+[20-May-2024 04:39:39 UTC] User Consent: accept
+[20-May-2024 04:39:42 UTC] User Consent: reject
+[20-May-2024 04:39:44 UTC] User Consent: reject
+[20-May-2024 04:42:07 UTC] User Consent: reject
+[20-May-2024 04:42:10 UTC] User Consent: reject
+[20-May-2024 04:42:12 UTC] User Consent: accept
+[20-May-2024 04:45:04 UTC] User Consent: reject
+[20-May-2024 04:45:08 UTC] User Consent: reject
+[20-May-2024 05:14:58 UTC] User Consent: accept
+[20-May-2024 05:15:20 UTC] User Consent: reject
+[20-May-2024 05:16:25 UTC] User Consent: reject
+[20-May-2024 05:16:25 UTC] User Consent: reject
+[20-May-2024 05:16:30 UTC] User Consent: reject
+[20-May-2024 05:16:31 UTC] User Consent: reject
+[20-May-2024 05:16:32 UTC] User Consent: reject
+[20-May-2024 05:16:32 UTC] User Consent: reject
+[20-May-2024 05:16:33 UTC] User Consent: reject
+[20-May-2024 05:16:46 UTC] User Consent: reject
+[20-May-2024 05:16:47 UTC] User Consent: reject
+[20-May-2024 05:16:47 UTC] User Consent: reject
+[20-May-2024 05:16:47 UTC] User Consent: reject
+[20-May-2024 05:16:52 UTC] User Consent: reject
+[20-May-2024 05:16:53 UTC] User Consent: reject
+[20-May-2024 05:16:55 UTC] User Consent: reject
+[20-May-2024 05:16:57 UTC] User Consent: accept
+[20-May-2024 05:17:17 UTC] User Consent: accept
+[20-May-2024 05:17:17 UTC] User Consent: accept
+[20-May-2024 05:17:18 UTC] User Consent: accept
+[20-May-2024 05:17:22 UTC] User Consent: accept
+[20-May-2024 05:17:23 UTC] User Consent: accept
+[20-May-2024 05:17:29 UTC] User Consent: reject
+[20-May-2024 05:17:38 UTC] User Consent: reject
+[20-May-2024 05:17:51 UTC] User Consent: reject
+[20-May-2024 05:17:51 UTC] User Consent: reject
+[20-May-2024 05:17:57 UTC] User Consent: reject
+[20-May-2024 05:18:01 UTC] User Consent: reject
+[20-May-2024 05:18:12 UTC] User Consent: reject
+[20-May-2024 05:18:32 UTC] User Consent: accept
+[20-May-2024 05:18:37 UTC] User Consent: reject
+[20-May-2024 05:18:39 UTC] User Consent: reject
+[20-May-2024 05:18:41 UTC] User Consent: reject
+[20-May-2024 05:18:45 UTC] User Consent: reject
+[20-May-2024 05:18:49 UTC] User Consent: reject
+[20-May-2024 05:18:51 UTC] User Consent: reject
+[20-May-2024 05:19:01 UTC] User Consent: reject
+[20-May-2024 05:19:08 UTC] User Consent: reject
+[20-May-2024 05:19:26 UTC] User Consent: reject
+[20-May-2024 05:19:28 UTC] User Consent: reject
+[20-May-2024 05:19:31 UTC] User Consent: accept
+[20-May-2024 05:19:33 UTC] User Consent: reject
+[20-May-2024 05:19:39 UTC] User Consent: reject
+[20-May-2024 05:22:18 UTC] User Consent: reject
+[20-May-2024 05:22:18 UTC] User Consent: reject
+[20-May-2024 05:22:19 UTC] User Consent: reject
+[20-May-2024 05:22:30 UTC] User Consent: reject
+[20-May-2024 05:22:38 UTC] User Consent: reject
+[20-May-2024 05:22:41 UTC] User Consent: reject
+[20-May-2024 05:22:43 UTC] User Consent: reject
+[20-May-2024 05:22:53 UTC] User Consent: reject
+[20-May-2024 05:23:07 UTC] User Consent: reject
+[20-May-2024 05:23:08 UTC] User Consent: reject
+[20-May-2024 05:23:10 UTC] User Consent: reject
+[20-May-2024 05:23:14 UTC] User Consent: accept
+[20-May-2024 05:23:16 UTC] User Consent: reject
+[20-May-2024 05:23:20 UTC] User Consent: reject
+[20-May-2024 05:23:25 UTC] User Consent: reject
+[20-May-2024 05:23:39 UTC] User Consent: reject
+[20-May-2024 05:24:19 UTC] User Consent: accept
+[20-May-2024 05:24:30 UTC] User Consent: reject
+[20-May-2024 05:24:31 UTC] User Consent: reject
+[20-May-2024 05:24:34 UTC] User Consent: reject
+[20-May-2024 05:24:35 UTC] User Consent: reject
+[20-May-2024 05:24:37 UTC] User Consent: accept
+[20-May-2024 05:24:43 UTC] User Consent: reject
+[20-May-2024 05:24:53 UTC] User Consent: reject
+[20-May-2024 05:24:56 UTC] User Consent: accept
+[20-May-2024 05:24:58 UTC] User Consent: reject
+[20-May-2024 05:25:03 UTC] User Consent: reject
+[20-May-2024 05:26:02 UTC] User Consent: reject
+[20-May-2024 05:26:04 UTC] User Consent: reject
+[20-May-2024 05:26:14 UTC] User Consent: reject
+[20-May-2024 05:26:14 UTC] User Consent: reject
+[20-May-2024 05:26:15 UTC] User Consent: reject
+[20-May-2024 05:26:18 UTC] User Consent: accept
+[20-May-2024 05:26:24 UTC] User Consent: reject
+[20-May-2024 05:26:26 UTC] User Consent: reject
+[20-May-2024 05:26:32 UTC] User Consent: reject
+[20-May-2024 05:26:35 UTC] User Consent: reject
+[20-May-2024 05:26:41 UTC] User Consent: reject
+[20-May-2024 05:26:46 UTC] User Consent: reject
+[20-May-2024 05:26:47 UTC] User Consent: reject
+[20-May-2024 05:26:50 UTC] User Consent: accept
+[20-May-2024 05:26:53 UTC] User Consent: reject
+[20-May-2024 05:26:55 UTC] User Consent: reject
+[20-May-2024 05:27:00 UTC] User Consent: accept
+[20-May-2024 05:27:02 UTC] User Consent: reject
+[20-May-2024 05:33:48 UTC] User Consent: reject
+[20-May-2024 05:34:06 UTC] User Consent: reject
+[20-May-2024 05:37:57 UTC] User Consent: accept
+[20-May-2024 05:37:58 UTC] User Consent: accept
+[20-May-2024 05:38:02 UTC] User Consent: reject
+[20-May-2024 05:39:54 UTC] User Consent: reject
+[20-May-2024 05:40:00 UTC] User Consent: reject
+[20-May-2024 05:40:00 UTC] User Consent: reject
+[20-May-2024 05:40:04 UTC] User Consent: reject
+[20-May-2024 05:40:53 UTC] User Consent: reject
+[20-May-2024 05:40:53 UTC] PHP Warning:  preg_replace(): Unknown modifier 'c' in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 273
+[20-May-2024 05:40:53 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 279
+[20-May-2024 05:40:53 UTC] PHP Warning:  preg_replace(): Unknown modifier 'c' in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 279
+[20-May-2024 05:41:24 UTC] User Consent: reject
+[20-May-2024 05:41:24 UTC] PHP Warning:  preg_replace(): Unknown modifier 'c' in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 273
+[20-May-2024 05:41:24 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 279
+[20-May-2024 05:41:24 UTC] PHP Warning:  preg_replace(): Unknown modifier 'c' in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 279
+[20-May-2024 05:42:56 UTC] User Consent: reject
+[20-May-2024 05:46:31 UTC] User Consent: reject
+[20-May-2024 05:46:31 UTC] PHP Warning:  preg_replace(): Unknown modifier '/' in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 273
+[20-May-2024 05:46:31 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 279
+[20-May-2024 05:46:31 UTC] PHP Warning:  preg_replace(): Unknown modifier '/' in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 279
+[20-May-2024 05:47:18 UTC] User Consent: reject
+[20-May-2024 05:47:46 UTC] User Consent: reject
+[20-May-2024 05:47:55 UTC] User Consent: accept
+[20-May-2024 05:48:03 UTC] User Consent: reject
+[20-May-2024 05:48:32 UTC] User Consent: reject
+[20-May-2024 05:48:32 UTC] PHP Warning:  preg_replace(): Unknown modifier '/' in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 273
+[20-May-2024 05:48:32 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 279
+[20-May-2024 05:48:32 UTC] PHP Warning:  preg_replace(): Unknown modifier '/' in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 279
+[20-May-2024 05:48:35 UTC] User Consent: reject
+[20-May-2024 05:48:35 UTC] PHP Warning:  preg_replace(): Unknown modifier '/' in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 273
+[20-May-2024 05:48:35 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 279
+[20-May-2024 05:48:35 UTC] PHP Warning:  preg_replace(): Unknown modifier '/' in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 279
+[20-May-2024 05:48:53 UTC] User Consent: reject
+[20-May-2024 05:50:40 UTC] User Consent: reject
+[20-May-2024 05:50:40 UTC] User Consent: reject
+[20-May-2024 05:51:03 UTC] User Consent: reject
+[20-May-2024 05:51:03 UTC] PHP Warning:  preg_replace(): Unknown modifier '/' in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 273
+[20-May-2024 05:51:03 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 279
+[20-May-2024 05:51:03 UTC] PHP Warning:  preg_replace(): Unknown modifier '/' in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 279
+[20-May-2024 05:51:21 UTC] User Consent: reject
+[20-May-2024 05:51:21 UTC] User Consent: reject
+[20-May-2024 05:53:05 UTC] User Consent: accept
+[20-May-2024 05:53:23 UTC] User Consent: reject
+[20-May-2024 05:54:03 UTC] User Consent: reject
+[20-May-2024 05:54:57 UTC] User Consent: reject
+[20-May-2024 05:55:08 UTC] User Consent: reject
+[20-May-2024 05:55:35 UTC] User Consent: reject
+[20-May-2024 05:55:36 UTC] User Consent: reject
+[20-May-2024 05:55:48 UTC] User Consent: reject
+[20-May-2024 05:57:47 UTC] User Consent: accept
+[20-May-2024 05:57:57 UTC] User Consent: reject
+[20-May-2024 05:58:11 UTC] User Consent: accept
+[20-May-2024 05:58:20 UTC] User Consent: reject
+[20-May-2024 05:58:46 UTC] User Consent: accept
+[20-May-2024 05:58:51 UTC] User Consent: reject
+[20-May-2024 05:58:51 UTC] User Consent: reject
+[20-May-2024 05:58:52 UTC] User Consent: reject
+[20-May-2024 05:59:16 UTC] User Consent: accept
+[20-May-2024 05:59:22 UTC] User Consent: reject
+[20-May-2024 05:59:22 UTC] User Consent: reject
+[20-May-2024 05:59:23 UTC] User Consent: reject
+[20-May-2024 05:59:23 UTC] User Consent: reject
+[20-May-2024 05:59:53 UTC] User Consent: reject
+[20-May-2024 05:59:54 UTC] User Consent: reject
+[20-May-2024 05:59:54 UTC] User Consent: reject
+[20-May-2024 05:59:54 UTC] User Consent: reject
+[20-May-2024 05:59:55 UTC] User Consent: reject
+[20-May-2024 05:59:55 UTC] User Consent: reject
+[20-May-2024 05:59:55 UTC] User Consent: reject
+[20-May-2024 05:59:55 UTC] User Consent: reject
+[20-May-2024 05:59:55 UTC] User Consent: reject
+[20-May-2024 05:59:55 UTC] User Consent: reject
+[20-May-2024 05:59:56 UTC] User Consent: reject
+[20-May-2024 05:59:56 UTC] User Consent: reject
+[20-May-2024 05:59:56 UTC] User Consent: reject
+[20-May-2024 05:59:56 UTC] User Consent: reject
+[20-May-2024 05:59:57 UTC] User Consent: reject
+[20-May-2024 05:59:57 UTC] User Consent: reject
+[20-May-2024 05:59:57 UTC] User Consent: reject
+[20-May-2024 05:59:57 UTC] User Consent: reject
+[20-May-2024 05:59:58 UTC] User Consent: reject
+[20-May-2024 05:59:58 UTC] User Consent: reject
+[20-May-2024 06:00:55 UTC] User Consent: reject
+[20-May-2024 06:01:29 UTC] User Consent: accept
+[20-May-2024 06:01:33 UTC] User Consent: reject
+[20-May-2024 06:02:06 UTC] User Consent: reject
+[20-May-2024 06:02:16 UTC] User Consent: reject
+[20-May-2024 06:02:24 UTC] User Consent: reject
+[20-May-2024 06:02:25 UTC] User Consent: reject
+[20-May-2024 06:02:29 UTC] User Consent: reject
+[20-May-2024 06:02:31 UTC] User Consent: accept
+[20-May-2024 06:02:36 UTC] User Consent: reject
+[20-May-2024 06:02:40 UTC] User Consent: reject
+[20-May-2024 06:02:42 UTC] User Consent: accept
+[20-May-2024 06:04:58 UTC] User Consent: reject
+[20-May-2024 06:05:11 UTC] User Consent: accept
+[20-May-2024 06:05:13 UTC] User Consent: reject
+[20-May-2024 06:05:16 UTC] User Consent: reject
+[20-May-2024 06:05:21 UTC] User Consent: reject
+[20-May-2024 06:05:26 UTC] User Consent: reject
+[20-May-2024 06:05:52 UTC] User Consent: reject
+[20-May-2024 06:05:55 UTC] User Consent: reject
+[20-May-2024 06:07:36 UTC] User Consent: reject
+[20-May-2024 06:07:37 UTC] User Consent: reject
+[20-May-2024 06:07:39 UTC] User Consent: reject
+[20-May-2024 06:07:44 UTC] User Consent: accept
+[20-May-2024 06:08:55 UTC] User Consent: reject
+[20-May-2024 06:14:17 UTC] User Consent: reject
+[20-May-2024 06:15:44 UTC] User Consent: reject
+[20-May-2024 06:15:48 UTC] User Consent: reject
+[20-May-2024 06:15:52 UTC] User Consent: reject
+[20-May-2024 06:15:54 UTC] User Consent: reject
+[20-May-2024 06:16:02 UTC] User Consent: reject
+[20-May-2024 06:16:13 UTC] User Consent: reject
+[20-May-2024 06:16:17 UTC] User Consent: reject
+[20-May-2024 06:16:31 UTC] User Consent: reject
+[20-May-2024 06:18:31 UTC] User Consent: reject
+[20-May-2024 06:18:46 UTC] User Consent: reject
+[20-May-2024 06:18:59 UTC] User Consent: reject
+[20-May-2024 06:19:10 UTC] User Consent: reject
+[20-May-2024 07:09:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin-ajax.php(22): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:09:02 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:09:02 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:09:02 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:09:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:09:03 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:09:03 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:09:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:09:04 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:09:04 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:09:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:09:04 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:09:04 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:09:05 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:09:05 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:09:05 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:10:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:10:17 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:10:17 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:10:18 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:10:19 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:10:19 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:37 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:15:37 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:37 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:15:38 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:38 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:15:38 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:38 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:15:39 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:39 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:15:39 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:39 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:15:39 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:39 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:15:39 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:39 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php:100
+Stack trace:
+#0 /Users/jithin/Desktop/Projects/pluginAssignment/wp-settings.php(517): include_once()
+#1 /Users/jithin/Desktop/Projects/pluginAssignment/wp-config.php(101): require_once('/Users/jithin/D...')
+#2 /Users/jithin/Desktop/Projects/pluginAssignment/wp-load.php(50): require_once('/Users/jithin/D...')
+#3 /Users/jithin/Desktop/Projects/pluginAssignment/wp-admin/admin.php(34): require_once('/Users/jithin/D...')
+#4 /Users/jithin/.composer/vendor/laravel/valet/server.php(110): require('/Users/jithin/D...')
+#5 {main}
+  thrown in /Users/jithin/Desktop/Projects/pluginAssignment/wp-content/plugins/script/script-blocking.php on line 100
+[20-May-2024 07:15:39 UTC] PHP Notice:  Function is_embed was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078
+[20-May-2024 07:15:39 UTC] PHP Notice:  Function is_search was called incorrectly. Conditional query tags do not work before the query is run. Before then, they always return false. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 3.1.0.) in /Users/jithin/Desktop/Projects/pluginAssignment/wp-includes/functions.php on line 6078

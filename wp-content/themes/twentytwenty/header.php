@@ -28,8 +28,7 @@
 		<?php
 		wp_body_open();
 		?>
-		<script type="text/javascript" src="https://example2.com/script.js">jithingeorgejose</script>
-		<script type="text/javascript" src="https://example3.com/script.js">mynameis</script>
+	<script type="text/javascript" src="https://pluginassignment.test/wp-content/cookie.js"></script>
 
 		<header id="site-header" class="header-footer-group">
 

@@ -9,6 +9,10 @@ jQuery(document).ready(function($) {
         document.cookie = name + "=" + (value || "") + expires + "; path=/";
     }
 
+    function deleteCookie(name) {
+        setCookie(name, "", -1); 
+    }
+
     function getCookie(name) {
         var nameEQ = name + "=";
         var ca = document.cookie.split(';');
@@ -24,6 +28,17 @@ jQuery(document).ready(function($) {
         return getCookie('sb_user_consent');
     }
 
+    function handleConsent(consent) {
+        if (consent === 'accept') {
+            setCookie('userName', 'Jithin', 30);
+            setCookie('lastName', 'George', 30);
+        } else {
+            deleteCookie('userName');
+            deleteCookie('lastName');
+        }
+        setCookie('sb_user_consent', consent, 365);
+    }   
+
     $('#sb-frontend-banner .btn-accept, #sb-frontend-banner .btn-reject').click(function() {
         var consent = $(this).hasClass('btn-accept') ? 'accept' : 'reject';
         $.post(sb_ajax_object.ajax_url, {
@@ -31,15 +46,16 @@ jQuery(document).ready(function($) {
             nonce: sb_ajax_object.nonce,
             consent: consent
         }).done(function() {
-            setCookie('sb_user_consent', consent, 365);
+            handleConsent(consent);
             $('#sb-frontend-banner').hide();
             $('#sb-revisit-banner').show();
         });
     });
 
     $('#sb-revisit-banner .btn-revisit').click(function() {
-        setCookie('sb_user_consent', '', -1); 
-        location.reload();
+        $('#sb-revisit-banner').hide();
+        $('#sb-frontend-banner').show();
+        setCookie('sb_user_consent', 'accept', 365); 
     });
 
     if (checkConsent()) {

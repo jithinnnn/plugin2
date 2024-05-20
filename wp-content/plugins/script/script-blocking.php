@@ -97,6 +97,7 @@ function toggle_plugin(){
     update_option('sb_plugin_enabled',!$current_state);
 }
 
+
 function sb_consent_log_page() {
     global $wpdb;
     $table_name = $wpdb->prefix . 'sb_consent_log';
@@ -243,7 +244,6 @@ function sb_block_scripts($buffer) {
 
     if ($plugin_enabled) {
         $user_consent = isset($_COOKIE['sb_user_consent']) ? $_COOKIE['sb_user_consent'] : 'reject';
-        error_log('User Consent: ' . $user_consent); // Add this line for debugging
         $keywords = explode(',', get_option('sb_keywords'));
 
         if (empty($keywords)) {
@@ -255,30 +255,39 @@ function sb_block_scripts($buffer) {
             if (empty($keyword)) {
                 continue;
             }
+            $escaped_keyword = preg_quote($keyword, '/');
 
             if (get_option('sb_enable_blocking_' . $keyword, '0') == '1') {
                 if ($user_consent === 'accept') {
-                    $buffer = preg_replace(
-                        '/<script\s+(.*?)type=[\'"]?text\/plain[\'"]?(.*?)src=[\'"]?(.*?' . preg_quote($keyword) . '.*?)["\']?(.*?)>/',
-                        '<script $1 type="text/javascript" src="$3$4>',
+                    $buffer = preg_replace_callback(
+                        '/<script\s+(.*?)type=[\'"]?text\/plain[\'"]?(.*?)src=[\'"]?(.*?' . $escaped_keyword . '.*?)["\']?(.*?)>/',
+                        function($matches) {
+                            return '<script ' . $matches[1] . 'type="text/javascript" src="' . $matches[3] . '"' . $matches[4] . '>';
+                        },
                         $buffer
                     );
 
-                    $buffer = preg_replace(
-                        '/<script\s+type="text\/plain">(.*?' . preg_quote($keyword) . '.*?)<\/script>/is',
-                        '<script type="text/javascript">$1</script>',
+                    $buffer = preg_replace_callback(
+                        '/<script\s+type="text\/plain">(.*?' . $escaped_keyword . '.*?)<\/script>/is',
+                        function($matches) {
+                            return '<script type="text/javascript">' . $matches[1] . '</script>';
+                        },
                         $buffer
                     );
                 } else {
-                    $buffer = preg_replace(
-                        '/<script\s+(.*?)type=[\'"]?text\/javascript[\'"]?(.*?)src=[\'"]?(.*?' . preg_quote($keyword) . '.*?)["\']?(.*?)>/',
-                        '<script $1 type="text/plain" src="$3$4>',
+                    $buffer = preg_replace_callback(
+                        '/<script\s+(.*?)type=[\'"]?text\/javascript[\'"]?(.*?)src=[\'"]?(.*?' . $escaped_keyword . '.*?)["\']?(.*?)>/',
+                        function($matches) {
+                            return '<script ' . $matches[1] . 'type="text/plain" src="' . $matches[3] . '"' . $matches[4] . '>';
+                        },
                         $buffer
                     );
 
-                    $buffer = preg_replace(
-                        '/<script\s*>(.*?' . preg_quote($keyword) . '.*?)<\/script>/is',
-                        '<script type="text/plain">$1</script>',
+                    $buffer = preg_replace_callback(
+                        '/<script\s*>(.*?' . $escaped_keyword . '.*?)<\/script>/is',
+                        function($matches) {
+                            return '<script type="text/plain">' . $matches[1] . '</script>';
+                        },
                         $buffer
                     );
                 }
